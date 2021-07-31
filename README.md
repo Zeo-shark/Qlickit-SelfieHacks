@@ -10,7 +10,7 @@ So far so good,only possibility being entirely unaware of the people who’re po
 But….WAIT!!
 What if, there’s a platform, essentially for hackathons?
 
-# HERE COMES THE USE OF QLICKYWID
+# HERE COMES THE USE OF QLICKIT
 
 # What does it do?
 We display our work during hackathons,post our selfies with the hacks we’re building. So that,the next time there is an event,some other newbie can go through it,interact with us and team up? Or an experienced hacker can refer it,see if there’s anyone working in their area of interest and socialise with them.
