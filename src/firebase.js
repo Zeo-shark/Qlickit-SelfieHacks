@@ -1,14 +1,13 @@
 import firebase from "firebase";
 
 const firebaseApp = firebase.initializeApp({
-  apiKey: "AIzaSyAmv2ggHpNJiZBeRX5SzRelMq1aZ2Azxb8",
-  authDomain: "click-it-f99d2.firebaseapp.com",
-  databaseURL: "https://recess-it.firebaseio.com",
-  projectId: "recess-it",
-  storageBucket: "recess-it.appspot.com",
-  messagingSenderId: "352303707187",
-  appId: "1:565865071673:web:af324bf2cf8baedd2a39e8",
-  measurementId: "G-B3QL0CLZX9",
+  apiKey: "AIzaSyDsSqWhn_DRX64CjQYzmloqI17ygm_gRmU",
+    authDomain: "click-it-f99d2.firebaseapp.com",
+    projectId: "click-it-f99d2",
+    storageBucket: "click-it-f99d2.appspot.com",
+    messagingSenderId: "565865071673",
+    appId: "1:565865071673:web:af324bf2cf8baedd2a39e8",
+    measurementId: "G-2JHN4G47PZ"
 });
 
 const db = firebaseApp.firestore();
