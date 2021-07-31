@@ -4,22 +4,22 @@ const lightTheme = createMuiTheme({
   type: "light",
   palette: {
     primary: {
-      main: "#121823",
+      main: "#DA0037",
     },
     secondary: {
-      main: "#41506B",
-      dark: "#9dd4dbbf",
+      main: "#FF616D",
+      dark: "#66DE93",
     },
     error: {
       main: "#FF4D4D",
     },
     text: {
-      primary: "#121823",
-      secondary: "#41506B",
+      primary: "#DA0037",
+      secondary: "#FF616D",
     },
     background: {
-      default: "#EEFDFF",
-      paper: "#EEFDFF",
+      default: "#FFEAC9",
+      paper: "#FFEAC9",
     },
   },
   typography: {
@@ -31,7 +31,7 @@ const darkTheme = {
   type: "dark",
   palette: {
     primary: {
-      main: "#0CB7D3",
+      main: "#FFF338",
     },
     secondary: {
       main: "#41506B",
@@ -41,8 +41,8 @@ const darkTheme = {
       main: "#FF4D4D",
     },
     text: {
-      primary: "#0CB7D3",
-      secondary: "#41506B",
+      primary: "#FFF338",
+      secondary: "#FFEEDB",
     },
     background: {
       default: "#121823",

@@ -1,15 +1,15 @@
 {
   "projects": {
-    "default": "recess-it"
+    "default": "qlickit"
   },
   "targets": {
-    "recess-it": {
+    "qlickit": {
       "hosting": {
         "new-design": [
-          "recess-it-new"
+          "qlickit-it-new"
         ],
         "prod": [
-          "recess-it"
+          "qlick-it"
         ]
       }
     }
