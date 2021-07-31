@@ -93,6 +93,7 @@ function Uploadpage({ username }) {
           <Box className={classes.uploadArea}>
             <span className={classes.text}>Click to upload Image</span>
           </Box>
+          
           <Input
             accept="image/*"
             id="contained-button-file"
@@ -125,6 +126,9 @@ function Uploadpage({ username }) {
       <label className={classes.upload}>
         <Button onClick={handleUpload} className={classes.uploadBtn}>
           Upload
+        </Button>
+        <Button href="https://snapshotcam.netlify.app/" className={classes.uploadBtn}>
+          Click now
         </Button>
       </label>
       <LinearProgress
