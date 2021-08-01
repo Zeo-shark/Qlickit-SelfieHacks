@@ -20,6 +20,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import { Container, CssBaseline, Grid } from "@material-ui/core";
 
 import styles from "./style";
+import Temp from "./pages/PostPage/temp";
 
 const useStyles = makeStyles(styles);
 function Content({ isLightTheme, setIsLightTheme }) {
@@ -130,7 +131,11 @@ function Content({ isLightTheme, setIsLightTheme }) {
                   path="/post/:postId"
                   component={() => <Postpage />}
                 />
-
+                <Route
+                  exact
+                  path="/temp"
+                  component={() => <Temp />}
+                />
                 <Route
                   exact
                   path="/notfound"

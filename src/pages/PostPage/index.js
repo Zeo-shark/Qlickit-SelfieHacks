@@ -76,9 +76,9 @@ function Postpage() {
 
       <div className={classes.postComments}>
         {comments &&
-          comments.map((comment, index) => (
+          comments.map((c, index) => (
             <p key={`comment-index-${index}`}>
-              <strong> {comment.username} </strong> {comment.text}
+              <strong> {c.username} </strong> {c.text}
             </p>
           ))}
       </div>
