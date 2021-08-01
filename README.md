@@ -29,8 +29,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://img-premium.flaticon.com/png/512/2383/premium/2383482.png?token=exp=1627813935~hmac=8a1f17288b4cda0f124066acecb88630" alt="Logo" width="80" height="80">
+  <a href="https://qlickit.herokuapp.com/home">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Circle-icons-camera.svg/2048px-Circle-icons-camera.svg.png" alt="Logo" width="80" height="80">
   </a>
 
   <h1 align="center">QlickIt</h1>
@@ -183,6 +183,9 @@ As a prequisites to run the app on local system you must have react Js installed
 You can directly view the Application from [here](https://qlickit.herokuapp.com/home).  
 Few Screenshots of the demo prototype are below:
 
+ ![](./assets/Application_1.PNG)
+ ![](./assets/AppScreenShots_2.jfif)
+ ![](./assets/AppScreenShots_2.png)
 
 
 
