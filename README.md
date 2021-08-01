@@ -83,25 +83,36 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Hackathons. Pandemic. Lockdown. Somehow don’t relate,right? Except for virtual ones? Now,another challenge. Who to work with? Only options, being a beginner – use team building channels in Discord,Slack,etc. So far so good,only possibility being entirely unaware of the people who’re posting..how they But….WAIT!! What if, there’s a platform, essentially for hackathons?
 
 Here's why:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
+* You shouldn't be doing the same tasks over and over like teaming up with like minded people,hunting for the perfect team,etc.
+* You should be able to team up with fellow hackers,without going through the hassles of requesting a teamup,talking about your tech stack,etc. :smile:
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
+Hence,this social media platform. Just go through posts and works done by hackers earlier,and team up with the ones you like!
 
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
 ### Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+This section lists the major frameworks that we built our project using. 
+* [React js](https://reactjs.org)
+* [Firestore](https://firebase.google.com)
+* [HTML](https://www.html.com)
+* [Canva Pro](https://www.canva.com)
+* [Figma](https://www.figma.com)
 
+### What it does
+* We display our work during hackathons,post our selfies with the hacks we’re building. 
+* The next time there is an event,some other newbie can go through it,interact with us and team up.
+* An experienced hacker can refer it,see if there’s anyone working in their area of interest and socialise with them.
+That's how simple it is!!
 
+### How we built it
+* Design prototype - Canva pro, figma
+* The app - ReactJs.
+* Db - Google cloud buckets
+* Backend - Firestore
 
 <!-- GETTING STARTED -->
 ## Getting Started
