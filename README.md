@@ -29,22 +29,22 @@
 <br />
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://img-premium.flaticon.com/png/512/2383/premium/2383482.png?token=exp=1627813935~hmac=8a1f17288b4cda0f124066acecb88630" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h1 align="center">QlickIt</h1>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    A Complete Social Media App to share you selfies, and hackathon experiences with others globally.
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Zeo-shark/Qlickit"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://qlickit.herokuapp.com/home">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/Zeo-shark/Qlickit/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://qlickit.herokuapp.com/home">Request Feature</a>
   </p>
 </p>
 
@@ -57,6 +57,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
+        <li><a href="#keyfeatures">Key Features</a></li>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
@@ -68,11 +69,8 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
+    <li><a href="#screenshots">Demo-Screenshots</a></li>
+    
   </ol>
 </details>
 
@@ -81,7 +79,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![](./assets/Application_1.PNG)](https://qlickit.herokuapp.com/home)
 
 Hackathons. Pandemic. Lockdown. Somehow don’t relate,right? Except for virtual ones? Now,another challenge. Who to work with? Only options, being a beginner – use team building channels in Discord,Slack,etc. So far so good,only possibility being entirely unaware of the people who’re posting..how they But….WAIT!! What if, there’s a platform, essentially for hackathons?
 
@@ -92,13 +90,26 @@ Here's why:
 
 Hence,this social media platform. Just go through posts and works done by hackers earlier,and team up with the ones you like!
 
+<!-- keyfeatures -->
+## Key Features
+
+- *Share Posts(Images, text, videos, JPG)* features with comments on posts features.
+- In built comments based **Chat feature**.
+- Prefernece based Home and Explore page preview.
+- Built-in user profile dashboard showing key posts and comments.
+
 
 ### Built With
 
 This section lists the major frameworks that we built our project using. 
 * [React js](https://reactjs.org)
-* [Firestore](https://firebase.google.com)
+* [Google Cloud Platform](https://cloud.google.com/gcp/?utm_source=google&utm_medium=cpc&utm_campaign=japac-IN-all-en-dr-bkws-all-all-trial-e-dr-1009882&utm_content=text-ad-none-none-DEV_c-CRE_514666343194-ADGP_Hybrid%20%7C%20BKWS%20-%20EXA%20%7C%20Txt%20~%20GCP%20~%20General_%20Core%20Brand-KWID_43700060584985730-kwd-87853815-userloc_1007748&utm_term=KW_gcp-ST_gcp&gclid=CjwKCAjwjJmIBhA4EiwAQdCbxndFECTZrN43cQ3aS9f_epVoSJI2yYSpyoPZjPZT5TQqYmdFwFKmShoCQl8QAvD_BwE&gclsrc=aw.ds)
+* [GCP-Firestore](https://firebase.google.com)
+* [Firebase](https://console.firebase.google.com/u/0/)
 * [HTML](https://www.html.com)
+* [CSS](https://css.com)
+* [JavaScript](https://www.javascript.com/)
+* [JSON](https://json.org)
 * [Canva Pro](https://www.canva.com)
 * [Figma](https://www.figma.com)
 
@@ -108,11 +119,11 @@ This section lists the major frameworks that we built our project using.
 * An experienced hacker can refer it,see if there’s anyone working in their area of interest and socialise with them.
 That's how simple it is!!
 
-### How we built it
-* Design prototype - Canva pro, figma
-* The app - ReactJs.
-* Db - Google cloud buckets
-* Backend - Firestore
+### How we built it?
+* **Design prototype** - Canva pro, figma
+* **The app** - ReactJs, HTML, CSS, JS, Nodejs, JSON.
+* **Backend(Authentication, Database)** - Firebase Authentication, Google Cloud Firestore.
+* **Storage**- Google Cloud Platform(Storage).
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -122,13 +133,13 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+As a prequisites to run the app on local system you must have react Js installed along with firebase account.
 * npm
   ```sh
-  npm install npm@latest -g
+  npm install -g react-js
   ```
 
-### Installation
+### 
 
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
@@ -137,73 +148,52 @@ This is an example of how to list things you need to use the software and how to
    ```
 3. Install NPM packages
    ```sh
+   cd ./project_dir
    npm install
+   npm start
+   npm run build
    ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
-   ```
+4. To update the firebase Settings to your project update
+
+    ```Js
+    import firebase from "firebase";
+
+    const firebaseApp = firebase.initializeApp({
+      apiKey: "AIzaSyDsSqWhn_DRX64CjQYzmloqI17ygm_gRmU",
+        authDomain: "click-it-f99d2.firebaseapp.com",
+        projectId: "click-it-f99d2",
+        storageBucket: "click-it-f99d2.appspot.com",
+        messagingSenderId: "565865071673",
+        appId: "1:565865071673:web:af324bf2cf8baedd2a39e8",
+        measurementId: "G-2JHN4G47PZ"
+    });
+
+    const db = firebaseApp.firestore();
+    const auth = firebase.auth();
+    const storage = firebase.storage();
+
+    export { db, auth, storage };
+
+    ```
+
+<!-- SCREENSHOTS -->
+## ScreenShots
+
+You can directly view the Application from [here](https://qlickit.herokuapp.com/home).  
+Few Screenshots of the demo prototype are below:
 
 
 
-<!-- USAGE EXAMPLES -->
-## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+<!-- CONTRIBUTORS -->
+## Contributors
 
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+1. [Indrashis Mitra](https://github.com/indrashismitra)
+2. [Ankita Sahu](https://github.com/SAHU-01)
+3. [Sourav Bera](https://github.com/Zeo-shark)
 
 
 
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Pages](https://pages.github.com)
-* [Animate.css](https://daneden.github.io/animate.css)
-* [Loaders.css](https://connoratherton.com/loaders)
-* [Slick Carousel](https://kenwheeler.github.io/slick)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [Sticky Kit](http://leafo.net/sticky-kit)
-* [JVectorMap](http://jvectormap.com)
-* [Font Awesome](https://fontawesome.com)
 
 
 
