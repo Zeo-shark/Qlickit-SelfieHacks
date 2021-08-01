@@ -60,7 +60,7 @@ function Postpage() {
   return (
     <div className={classes.post}>
       <div className={classes.postHeader}>
-        <Avatar className={classes.avatar} alt="Avinash" src="" />
+        <Avatar className={classes.avatar} alt="Sourav" src="" />
         <h3 className={classes.username}>{postData.username}</h3>
       </div>
 
