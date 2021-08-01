@@ -1,4 +1,4 @@
-# BeingSocial
+# :camera: QlickIt
 Submission for MLH Selfie Hacks!
 
 # Inspiration 
