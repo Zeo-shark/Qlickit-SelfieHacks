@@ -110,6 +110,8 @@ function Post({ postId, user, username, caption, imageUrl }) {
         </form>
       )}
 
+
+
       <Link to={`/post/${postId}`} className={classes.viewPostBtn}>
         View Post
       </Link>
