@@ -196,7 +196,9 @@ Few Screenshots of the demo prototype are below:
 2. [Ankita Sahu](https://github.com/SAHU-01)
 3. [Sourav Bera](https://github.com/Zeo-shark)
 
+## Finally We Won Google Cloud Sponsorship Prizes:
 
+![](./assets/Qlickit.jfif)
 
 
 
