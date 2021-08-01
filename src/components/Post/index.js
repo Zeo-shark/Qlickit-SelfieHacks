@@ -64,7 +64,7 @@ function Post({ postId, user, username, caption, imageUrl }) {
   return (
     <div className={classes.post}>
       <div className={classes.postHeader}>
-        <Avatar className={classes.avatar} alt="Avinash" src="" />
+        <Avatar className={classes.avatar} alt="Ankita" src="" />
         <h3 className={classes.username}>{username}</h3>
       </div>
 
