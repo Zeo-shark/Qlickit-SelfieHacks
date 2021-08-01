@@ -25,6 +25,22 @@
 
 
 
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+# What's next for this
+Our team plans to expand this prototype by including more features,expanding this idea from the hacker community to anyone interested in and believing in the spirit of collaboration and teamwork in achieving success;as rightly said by none other than Henry Ford:
+Coming together is a beginning,
+Staying together is progress
+And working together is success.
+
+# Built by :
+
+Ankita Sahu
+Sourav Bera
+Indrashis Mitra
+=======
+>>>>>>> Stashed changes
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -224,3 +240,7 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
+<<<<<<< Updated upstream
+=======
+>>>>>>> 954a79c337a2771858517e09ad77efaf1d824ac6
+>>>>>>> Stashed changes
